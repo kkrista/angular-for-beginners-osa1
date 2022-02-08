@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   data= {
-    title: 'Angular-course'
+    title: '<h1>Angular-course</h1><script>alert("Attack")</script>'
   };
 
   onLogoClicked() {
