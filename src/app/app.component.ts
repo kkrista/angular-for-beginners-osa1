@@ -15,4 +15,10 @@ export class AppComponent {
     alert('Hello World');
   }
 
+  onKeyUp(newTitle:string) {
+
+    this.data.title = newTitle;
+
+  }
+
 }
